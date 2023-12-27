@@ -1,0 +1,916 @@
+@font-face {
+    font-family: "Bernadette";
+    src: url("fonts/bernadette.ttf");
+}
+html {
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+.header {
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 821px;
+}
+.top {
+    padding-left: 56px;
+    padding-right: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+    .top {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    }
+.top-logo {
+    margin-top: 25px;
+}
+@media screen and (max-width: 600px) {
+    .top-logo {
+        transform: scale(0.5);
+    }
+    }
+.top-img-logo:hover {
+    transition: 0.3s;
+}
+.top-img-logo:hover {
+    transform: scale(1.3);
+}
+.top-nav {
+    text-decoration: none;
+}
+.top-nav-elements {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 33px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+@media screen and (max-width: 600px) {
+    .top-nav-elements {
+        font-size: 12px;
+    }
+    }
+.top-nav-elements:hover {
+    font-size: 30px;
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    .top-nav-elements:hover {
+        font-size: 20px;
+    }
+    }
+.main {
+    margin-top: -600px;
+}
+.block-1-title {
+    font-family: "Bernadette";
+    color: white;
+    font-size: 110px;
+    text-align: center;
+    padding: 0 20px;
+}
+@media screen and (max-width: 600px) {
+    .block-1-title {
+        font-size: 60px;
+    }
+    }
+.block-1-title-1 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 37px;
+}
+.block-1-title-2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(253, 237, 237);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 645px;
+    padding: 0 20px;
+}
+.block-1-button-link {
+    text-align: center;
+    margin-top: 44px;
+}
+.block-1-button-link .button {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    padding: 0.8% 1.5%;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.block-1-button-link .button:hover {
+    transform: scale(1.5);
+    background-color: #8a8a8a;
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;  
+}
+.block-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.block-2-card-1 {
+    background-image: url(images/Card1.png);
+    width: 372px;
+    height: 414px;
+    margin-top: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.block-2-card-1:hover {
+    scale: 1.1;
+}
+.block-2-card-1:hover {
+    box-shadow: 0px 20px 10px 5px rgb(172, 172, 164);    
+}
+.block-2-card-2 {
+    background-image: url(images/Card2.png);
+    width: 372px;
+    height: 414px;
+    margin-top: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.block-2-card-2:hover {
+    scale: 1.1;
+}
+.block-2-card-2:hover {
+    box-shadow: 0px 20px 10px 5px rgb(172, 172, 164);  
+}
+.block-2-card-1-button {
+    margin: 0 auto;
+    text-align: center;
+}
+.block-2-card-1-button-text {
+    display: inline-block;
+    background: rgb(232,93,24);
+    background: linear-gradient(135deg, rgba(232,93,24,1) 36%, rgba(16,24,175,1) 75%);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.block-2-card-1-button-text:hover {
+    scale: 1.2;
+    border: 2px solid black;
+}
+.block-2-card-3 {
+    background-image: url(images/Card3.png);
+    width: 372px;
+    height: 414px;
+    margin-top: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.block-2-card-3:hover {
+    scale: 1.1;
+}
+.block-2-card-3:hover {
+    box-shadow: 0px 20px 10px 5px rgb(172, 172, 164);  
+}
+.block-2-card-1-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #333332;
+    font-size: 25px;
+    margin-top: 220px;
+}
+.block-2-card-1-text {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    color: #424242;
+    font-size: 16px;
+    max-width: 235px;
+    margin: 20px auto;
+} 
+.block-3 {
+    background-image: url(images/Background-A.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    transition: 0.5s;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 900px) {
+    .block-3 {
+        justify-content: space-around;
+    }
+    }
+@media screen and (max-width: 1100px) {
+    .block-3 {
+        background-image: none;
+    }
+    }
+.block-3-article-1{
+    margin-top: 50px;
+    max-width: 390px;
+}
+.block-3-article-1-title {
+    font-family: "Bernadette";
+    font-size: 50px;
+    line-height: 50px;
+    color: #333332;
+    padding-left: 25px;
+}
+.block-3-article-1-text {
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #040404;
+    max-width: 350px;
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.block-3-button {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.block-3-button-text {
+    display: inline-block;
+    background: rgb(232,94,24);
+    background: linear-gradient(90deg, rgba(232,94,24,0.8015581232492998) 29%, rgba(35,52,161,0.7707457983193278) 64%);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.block-3-button-text:hover {
+    box-shadow: 0px 5px 5px 5px rgb(172, 172, 164);
+    color: rgb(0, 0, 0);
+    scale: 1.2;
+}
+.block-3-article-2{
+    position: relative;
+}
+.block-3-article-2-background {
+    position: absolute;
+    left: -100px;
+    bottom: 80px;
+}
+@media screen and (max-width: 900px) {
+    .block-3-article-2-background {
+        position: absolute;
+        left: -1000px;
+        bottom: 50px;
+    }
+    }
+.block-3-article-2-background-2 {
+    opacity: 0;
+}
+@media screen and (max-width: 900px) {
+    .block-3-article-2-background-2 {
+        margin-top: 20px;
+        opacity: 1;
+    }
+    }
+.block-3-article-2-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #040404;
+    max-width: 350px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.block-4 {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+@media screen and (max-width: 1145px) {
+    .block-4 {
+        justify-content: center;
+    }
+    }
+.block-4-cards-img {
+    scale: 0.95;
+    max-width: 100%;
+    transition: 0.5s;
+}
+.block-4-cards-img:hover {
+    scale: 1.05;
+    max-width: 100%;
+    z-index: 2;
+    position: relative;
+}
+.block-4-card-atop {
+    max-width: 700px;
+    text-align: center;
+    padding-bottom: 30px;
+    position: absolute;
+    background-color: white;
+    left: 200px;
+    top: 210px;
+    border-radius: 10px;
+    z-index: 0;
+}
+@media screen and (max-width: 1145px) {
+    .block-4-card-atop {
+        position: static;
+    }
+    }
+.block-4-card-atop-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Bernadette";
+    font-size: 50px;
+    color: #333332;
+    font-weight: 400;
+}
+.block-4-card-atop-p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #040404;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 4%;
+    margin: 0;
+}
+.block-5 {
+    margin-top: 50px;
+    background-color: #f4f4f4;
+    background-image: url(images/block-5-bacround-2.png);
+    background-repeat: no-repeat;
+    background-position: 88% 0%;
+}
+@media screen and (max-width: 1290px) {
+    .block-5 {
+        background-image: none;
+    }
+    }
+
+.block-5-container {
+    max-width: 1170px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1290px) {
+    .block-5-container {
+        justify-content: center;
+    }
+    }
+.block-5-card-1 {
+    max-width: 500px;
+    width: 100%;
+}
+.block-5-card-1-h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Bernadette";
+    font-size: 50px;
+    color: #333332;
+    font-weight: 400;
+    line-height: 50px;
+    padding-left: 15px;
+}
+
+.block-5-card-1-p {
+    font-family: 'Lato', sans-serif;
+    color: #040404;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.block-5-card-1-button {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.block-5-card-1-button-text {
+    display: inline-block;
+    background: rgb(232,94,24);
+    background: linear-gradient(90deg, rgba(232,94,24,0.8015581232492998) 29%, rgba(35,52,161,0.7707457983193278) 64%);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.block-5-card-1-button-text:hover {
+    box-shadow: 0px 5px 5px 5px rgb(172, 172, 164);
+    color: rgb(0, 0, 0);
+    scale: 1.2;
+}
+.block-5-card-2 {
+    background-image: url(images/blcok-5-card-2-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 355px;
+    border-radius: 5%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.block-5-card-2-element {
+    border-radius: 10%;
+    width: 175px;
+    border: 1px dotted rgb(201, 199, 199);
+    text-align: center;
+    padding-top: 30px;
+    transition: 0.8s;
+}
+.block-5-card-2-element:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+}
+.container-block-6 {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.block-6-h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Bernadette";
+    font-size: 50px;
+    color: #333332;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+}
+.block-6-p {
+    font-family: 'Lato', sans-serif;
+    color: #040404;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 3%;
+    text-align: center;
+}
+.block-6-photos {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 0px 150px 0px 40px #f4f4f4;
+    text-decoration: none;
+}
+.block-6-photo-p {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.block-6-photo-p1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #a3a3a3;
+    text-decoration: none;
+}
+.block-6-photo-images {
+    transition: 0.5s;
+    border-radius: 5%;
+}
+.block-6-photo-images:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 10px 8px 5px rgb(131, 129, 129);
+}
+.container-block-7 {
+    max-width: 1900px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.block-7 {
+    margin-top: 190px;
+    background-image: url(images/block-7-background.png);
+    background-repeat: no-repeat;
+    background-position: 92%; 
+    display: flex;
+}
+@media screen and (max-width: 1740px) {
+    .block-7 {
+       background-size: 400px;
+    }
+    }
+@media screen and (max-width: 1100px) {
+    .block-7 {
+        background-image: none;
+    }
+    }
+.block-7-card-1 {
+    max-width: 625px;
+    width: 100%;
+    padding-left: 15px;
+}
+.block-7-card-2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin-top: 90px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: -20%;
+}
+@media screen and (max-width: 1740px) {
+    .block-7-card-2 {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        color: #000000;
+        font-weight: 400;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 400px;
+        margin-top: 90px;
+        width: 100%;
+        padding-right: -20%;
+    }
+    }
+.block-7-card-2-links {
+    margin-top: 320px;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+@media screen and (max-width: 1100px) {
+    .block-7-card-2-links {
+        margin-top: 20px;
+    }
+    }
+.block-7-card-2-links:hover {
+    transform: scale(1.3);
+}
+.block-7-card-1-h1 {
+    margin-top: 10px;
+    font-family: "Bernadette";
+    font-size: 50px;
+    color: #333332;
+    font-weight: 400;
+    line-height: 50px;
+}
+.block-7-card-1-h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #6e6e6e;
+    font-weight: bold;
+    line-height: 50px;
+    margin-top: -10px;
+}
+.block-7-card-1-p {
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.block-7-card-1-element-1 {
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+.block-7-card-1-element-1-line {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.block-7-card-1-element-1-line-1 {
+    height: 20px;
+    max-width: 400px;
+    width: 100%;
+    background: rgb(232,93,24);
+    background: linear-gradient(135deg, rgba(232,93,24,0.8015581232492998) 36%, rgba(16,24,175,1) 75%);
+    border-radius: 20px;
+    margin-bottom: -9px;
+}
+.block-7-card-1-element-1-text-1 {
+    font-size: 25px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+.block-7-card-1-element-1-line-2 {
+    height: 20px;
+    max-width: 470px;
+    width: 100%;
+    background-color: #cacaca;
+    border-radius: 20px;
+}
+.block-8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.block-8-section-1 {
+    background: rgb(232,93,24);
+    background: linear-gradient(135deg, rgba(232,93,24,1) 36%, rgba(16,24,175,1) 75%);
+    max-width: 520px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+@media screen and (max-width: 1571px) {
+    .block-8-section-1 {
+        justify-content: center;
+    } 
+}
+.block-8-section-1-card-1 {
+    max-width: 70%;
+    margin-top: 90px;
+    background-color: white;
+    margin-bottom: 90px;
+    transition: 0.5s;
+}
+.block-8-section-1-card-1:hover {
+    transform: scale(1.2);
+}
+.block-8-section-1-card-1-h1 {
+    text-align: center;
+    font-family: "Bernadette";
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    padding: 0 10px;
+}
+@media screen and (max-width: 400px) {
+    .block-8-section-1-card-1-h1 {
+        font-size: 35px;
+        padding-bottom: 29px;
+    }
+    }
+.block-8-section-1-card-1-h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -40px;
+}
+.block-8-section-1-card-1-price {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (max-width: 400px) {
+    .block-8-section-1-card-1-price {
+       transform: scale(0.7);
+    }
+    }
+@media screen and (max-width: 333px) {
+    .block-8-section-1-card-1-price {
+        margin-left: -30px;
+    }
+    }
+.block-8-section-1-card-1-h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.block-8-section-1-card-1-p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 10%;
+    font-weight: 600;
+}
+.block-8-section-2 {
+    background-color: #f4f4f4;
+    max-width: 1036px;
+    width: 100%;
+    margin-left: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 887px) {
+    .block-8-section-2 {
+        justify-content: center;
+    }
+}
+.block-8-section-2-card-1 {
+    max-width: 385px;
+    width: 100%;
+    margin-top: 90px;
+    background: rgb(232,93,24);
+    background: linear-gradient(135deg, rgba(232,93,24,1) 36%, rgba(16,24,175,1) 75%);
+    margin-bottom: 90px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+}
+.block-8-section-2-card-1:hover {
+    transform: scale(1.2);
+}
+.block-8-section-2-card-1-h1 {
+    font-family: "Bernadette";
+    font-weight: 600;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+}
+.block-8-section-2-card-1-h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -40px;
+}
+.block-8-section-2-card-2 {
+   max-width: 450px;
+   width: 100%;
+   margin-left: 5%;
+   margin-top: 10%;
+}
+.block-8-section-2-card-2-h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Bernadette";
+    font-size: 50px;
+    color: #333332;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;   
+}
+.block-8-section-2-card-2-p1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+}
+.block-8-section-2-card-2-p2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+}
+li {
+    list-style-image: url(images/block-8-list.png);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-left: 20px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.block-8-section-2-card-1-button {
+    text-align: center;
+    margin-top: 44px;
+}
+.block-8-section-2-card-1-button-link {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    padding: 0.8% 1.5%;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+    padding: 10px 20px;
+}
+.block-8-section-2-card-1-button-link:hover {
+    transform: scale(1.3);
+    background-color: #8a8a8a;
+    color: #ffffff;
+}
+.block-9 {
+    background-image: url(images/block-9-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.block-9-title {
+    font-family: "Bernadette";
+    font-size: 50px;
+    color: #333332;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 86px;
+    padding-bottom: 86px;
+    color: white;
+}
+.block-9-icons {
+    text-align: center;
+}
+.block-9-icon-1 {
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.block-9-icon-1:hover {
+   transform: scale(1.3);
+}
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-bottom: 75px;
+    max-width: 1030px;
+    width: 100%;
+    margin: 90px auto;
+}
+.footer-top-section-1 {
+    display: flex;
+    padding-right: 10px;
+}
+.footer-top-section-1-icon {
+    height: 50%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.footer-top-section-1-email-p {
+    color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.footer-top-section-1-email-link {
+    text-decoration: none;
+    color: #000000;
+}
+.footer-top-section-1-email-link {
+    color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.footer-bottom {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
